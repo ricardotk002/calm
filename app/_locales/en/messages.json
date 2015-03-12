@@ -4,7 +4,7 @@
     "description": "The name of the application"
   },
   "appDescription": {
-    "message": "Allows to enter in a calm mode and stop receiving incoming emails",
+    "message": "Allows to enter in peace mode and stop receiving incoming emails in Gmail",
     "description": "The description of the application"
   }
 }
