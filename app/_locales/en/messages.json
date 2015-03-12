@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Inbox Peace",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Allows to enter in a calm mode and stop receiving incoming emails",
+    "description": "The description of the application"
+  }
+}
