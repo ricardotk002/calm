@@ -1,0 +1,14 @@
+{
+  "name": "Inbox Peace",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ricardotk002/calm",
+  "authors": [
+    "Ricardo <ricardotk002@gmail.com>"
+  ],
+  "description": "Landing page",
+  "main": "index.html",
+  "private": true,
+  "dependencies": {
+    "foundation": "~5.5.1"
+  }
+}
