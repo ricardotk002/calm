@@ -11,23 +11,36 @@
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "http://mail.google.com/*",
+        "https://mail.google.com/*"
       ],
       "css": [
-        "bower_components/angular/angular-csp.css",
-        "styles/styles.css"
+        "styles/styles.css",
+        "bower_components/vex/css/vex.css",
+        "bower_components/vex/css/vex-theme-default.css"
       ],
       "js": [
-        "bower_components/angular/angular.min.js",
-        "scripts/contentscript.js"
+        "bower_components/jQuery/dist/jquery.min.js",
+        "bower_components/vex/js/vex.min.js",
+        "bower_components/vex/js/vex.dialog.min.js",
+        "bower_components/moment/min/moment.min.js",
+        "bower_components/jquery.countdown/dist/jquery.countdown.min.js",
+        "bower_components/covervid/covervid.min.js",
+        "scripts/contentscript.js",
+        "scripts/gmail_selectors.js",
+        "scripts/local_pause_cache.js",
+        "scripts/chrome_extension_specific.js",
+        "scripts/calm.js"
       ],
-      "run_at": "document_end",
-      "all_frames": false
+      "run_at": "document_idle"
     }
   ],
+
   "content_security_policy": "script-src 'self'; object-src 'self'",
+
   "web_accessible_resources": [
-    "bower_components/angular/*"
+    "bower_components/*",
+    "images/*.png",
+    "videos/*"
   ]
 }

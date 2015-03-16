@@ -1,7 +1,180 @@
-.inbox-peace {
-  border: 1px solid red;
-  /*position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 1000;*/
+#ip-button {
+    position: absolute !important;
+    min-width: 40px !important;
+    width: 40px !important;
+    right: 2rem !important;
+}
+
+#ip-button div {
+    margin: 2px 8px !important;
+    height: 29px !important;
+    background-repeat: no-repeat !important;
+    background-size: 20px 21px !important;
+}
+
+.covervid-video {
+    z-index: -2;
+}
+
+/*---vex---*/
+.vex-custom-field-wrapper {
+    margin: 1em 0;
+}
+
+.vex-dialog-message {
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.vex-custom-field-wrapper input[type="time"] {
+      font-family: 'Helvetica Neue', sans-serif;
+      background: none !important;
+      font-size: 3rem !important;
+      padding: 0;
+      min-height: 2rem !important;
+      font-weight: 300;
+      /* height: auto; */
+      margin: 0;
+      text-align: center;
+}
+
+.vex-custom-field-wrapper input[type="time"]:focus {
+    box-shadow: none !important;
+}
+
+/*---main-container---*/
+
+.ip-main-container {
+    /*background: url(http://www.go-nagano.net/blog/wp-content/uploads/2010/07/kamikochi_river1-570x381.jpg);*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+    background-size: cover;
+}
+.ip-overlay {
+    background-color: #000;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ip-header {
+    margin: 3%;
+}
+
+.ip-inbox {
+    position: relative;
+    display: inline-block;
+}
+
+.ip-inbox img {
+    height: auto;
+    width: 28px;
+}
+
+.ip-inbox span {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #fafafa;
+    letter-spacing: 1px;
+    font-size: 12px;
+    margin-top: 2px;
+    font-weight: 300;
+    background-color: rgb(79, 116, 194);
+    border-radius: 50%;
+    padding: 4px;
+    text-align: center;
+    width: 8px;
+    height: 8px;
+    line-height: 11px;
+}
+
+.ip-controls {
+    display: inline-block;
+    float: right;
+    position: relative;
+}
+
+.ip-controls a {
+    padding-left: 2rem;
+}
+
+.ip-controls a img {
+    vertical-align: middle;
+}
+
+.ip-hero {
+    text-align: center;
+    margin: 3.5rem auto;
+}
+
+.ip-hero img {
+    width: 50px;
+    opacity: 0.85;
+}
+
+.ip-hero h1 {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #fafafa;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.ip-hero p {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #fafafa;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-top: 2px;
+    font-weight: 100;
+}
+
+.ip-countdown {
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #fafafa;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+    font-size: 7rem;
+    font-weight: 700;
+}
+
+#clock span {
+    font-size: 4rem;
+}
+
+.ip-quote {
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #fafafa;
+    font-size: 16px;
+    margin-top: 11rem;
+    font-weight: 100;
+}
+
+input[type=range][orient=vertical]
+{
+    display: none;
+    writing-mode: bt-lr;
+    -webkit-appearance: slider-vertical;
+    width: 8px;
+    height: 120px;
+    top: 30px;
+    background: yellow;
+    left: 28px;
+    position: absolute;
+    padding: 0 5px;
 }

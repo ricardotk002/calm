@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="11px" height="21px" viewBox="0 0 11 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>speaker</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-7.000000, -2.000000)" fill="#FFFFFF">
+            <path d="M17.75,2.9998697 L17.75,21.9998697 C17.75,22.2218697 17.648,22.3798697 17.444,22.4718697 C17.222,22.5458697 17.037,22.5098697 16.888,22.3618697 L11.528,16.9998697 L7.75,16.9998697 C7.602,16.9998697 7.481,16.9538697 7.389,16.8608697 C7.297,16.7678697 7.25,16.6478697 7.25,16.4998697 L7.25,8.4998697 C7.25,8.3518697 7.296,8.2308697 7.389,8.1388697 C7.482,8.0468697 7.602,7.9998697 7.75,7.9998697 L11.528,7.9998697 L16.889,2.6388697 C17.037,2.4908697 17.222,2.4538697 17.445,2.5278697 C17.648,2.6198697 17.75,2.7768697 17.75,2.9998697 L17.75,2.9998697 Z" id="speaker" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
